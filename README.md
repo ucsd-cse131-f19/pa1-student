@@ -2,4 +2,4 @@
 Starter code for pa1
 
 Writeup here:
-https://ucsd-cse131-s18.github.io/pa1/
+https://ucsd-cse131-f19.github.io/pa1/
