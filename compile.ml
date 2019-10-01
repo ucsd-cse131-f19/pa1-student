@@ -8,7 +8,7 @@ let rec find ls x =
   | (y,v)::rest ->
     if y = x then Some(v) else find rest x
 
-let stackloc si = RegOffset(-8 * si, ESP)
+let stackloc si = RegOffset(-8 * si, RSP)
 
 let rec compile_expr (e : expr) (si : int) (env : (string * int) list) : instruction list =
   match e with
